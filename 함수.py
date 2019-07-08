@@ -16,6 +16,15 @@ def my_max(number):
          
     return max
 
+# 최소값을 구하는 함수작성 : my_min()
+def my_min(number):
+    min = sys.float_info.max
+    for i in number:
+        if min > i :
+            min = i
+         
+    return min
+
 number =[ ] 
 while True:
     n = int(input('숫자를 입력하세요:'))
@@ -23,3 +32,4 @@ while True:
         break
     number.append(n)
 print("최대값 : {0} ".format(my_max(number)))
+print("최소값 : {0} ".format(my_min(number)))
