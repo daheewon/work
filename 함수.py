@@ -1,9 +1,8 @@
 # 1. my_join함수 구현 -> str1과 str2 문자열을 결합하여 리턴하는 함수 
-
-str1 = input ('문장을 입력해 주세요:')
-str2 = input ('문장을 입력해 주세요:')
 def my_join( str1, str2 ):
     return str1+str2
+str1 = input ('문장을 입력해 주세요:')
+str2 = input ('문장을 입력해 주세요:')
 print (my_join( str1 , str2 ))
 
 
