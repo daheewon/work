@@ -10,9 +10,9 @@ import sys
 # 최고값을 구하는 함수작성 : my_max()
 def my_max(number):
     max = sys.float_info.min
-    for value in number:
-        if max < value :
-            max = value
+    for i in number:
+        if max < i :
+            max = i
          
     return max
 
